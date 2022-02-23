@@ -1,0 +1,57 @@
+a {
+  transition: all 0.15s ease;
+}
+
+/* text-yellow-500 */
+a:hover {
+  color: #F59E0B;
+  text-decoration: none;
+}
+
+.text-orange {
+  color: #F59E0B !important;
+  fill: #F59E0B !important;
+}
+
+.player-scrub, .player-song-info {
+  width: calc(100% - 250px);
+}
+
+.top-neg-8 {
+  top: -8px;
+}
+
+.player-song-info {
+  margin-top: -24px;
+}
+
+.card-header .fa.text-orange,
+.card .card-header .fas.text-orange {
+  color: #ff5e3a;
+  fill: #ff5e3a;
+}
+
+.introduction-bg {
+  animation: slide 50s linear infinite;
+  will-change: background-position;
+  z-index: -1;
+}
+
+#playlist li:first-child {
+  padding-top: 25px;
+}
+
+.upload-dropbox.upload-dropbox-drag{
+  color: #fff;
+  background-color: #20d862;
+  border-color: #20d862;
+  border-style: solid;
+}
+
+input[type="file"]{
+  margin-top: 20px;
+}
+
+.music-bg {
+  background-image: url(/assets/theme/img/song-header.png);
+}
