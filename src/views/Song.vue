@@ -135,7 +135,6 @@ export default {
       }
       // eslint-disable-next-line no-param-reassign
       vm.song = docSnapshot.data();
-      console.log(vm.song);
       const { sort } = vm.$route.query;
       // eslint-disable-next-line no-param-reassign
       vm.sort = sort === '1' || sort === '2' ? sort : '1';
